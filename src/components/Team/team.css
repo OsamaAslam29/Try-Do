@@ -1,0 +1,49 @@
+.team_heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+.team_para{
+    font-weight: 300;
+    color: #717173;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.team_container{
+    padding: 50px 0px;
+}
+.team_flex{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   
+}
+.flex_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.team_card img{
+    height: 500px;
+    width: 390px;
+    border-radius: 10px;
+}
+@media (max-width:1300px){
+    .flex_img{
+        flex-wrap: wrap;
+    }
+    .team_heading{
+        font-size: 40px;
+    }
+    .team_para{
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+}
+@media (max-width:1270px){
+    .flex_img{
+        flex-wrap: wrap;
+    }
+
+}

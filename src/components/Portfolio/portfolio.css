@@ -1,0 +1,100 @@
+.portfolio_container{
+    padding: 50px 0px;
+}
+.portfolio_heading{
+    font-size: 60px;
+    font-weight: 700;
+   
+}
+.portfolio_para{
+    font-weight: 300;
+    color: #717173;
+    font-size: 20px;
+    margin: 30px 0px;
+
+}
+.image_card{
+    position: relative;
+}
+.empty{
+    position: absolute;
+    top: 0;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    background: #00000054;
+    border-radius: 10px;
+}
+.position_text{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+.position_text h5{
+    color: #fff;
+    font-size: 15px;
+    font-weight: unset;
+}
+.position_text h4{
+    font-size: 25px;
+    color: #fff;
+}
+.btn-btn{
+    width: 106px;
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-btn:hover{
+    background-color: #f9004d;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+}
+.image_flex{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+}
+.image img{
+    border-radius: 10px;
+}
+@media (max-width:1440px){
+
+    .portfolio_heading{
+        font-size: 35px;
+       
+    }
+    .portfolio_para{
+        
+        font-size: 15px;
+        margin: 20px 0px;
+        
+    }
+    .image_flex{
+        flex-wrap: wrap;
+     }
+     
+}
+@media (max-width:800px){
+    
+    .portfolio_heading{
+        font-size: 25px;
+       
+    }
+    .portfolio_para{
+        
+        font-size: 10px;
+        margin: 10px 0px;
+    
+    }
+    .image img{
+        width: 400px;
+    }
+}
